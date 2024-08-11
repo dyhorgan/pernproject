@@ -1,10 +1,16 @@
-import logo from './logo.svg';
+import React, {Fragment} from "react";
 import './App.css';
+
+import InputTodo from "./components/InputTodo";
 
 function App() {
   return (
     <div className="App">
-      <h1>Project</h1>
+      <Fragment>
+        <div className="container">
+        <InputTodo />
+        </div>
+      </Fragment>
     </div>
   );
 }
